@@ -41,6 +41,7 @@ class Exception
             Emp_wage = Emp_Rate_Hr * Emp_Hr;
             Emp_present_wage += Emp_wage;
             Total_Working_Hr += Emp_Hr;
+
             Console.WriteLine("Day:- "+Total_Working_Days+" Total Working Hrs till now:- "+Total_Working_Hr+" Total wages till now :- "+Emp_present_wage);
 
             Total_Working_Days++;
