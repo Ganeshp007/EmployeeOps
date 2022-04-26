@@ -33,6 +33,7 @@ public const int Working_Days = 20;
                     break;
 
                 default:
+                    Emp_Hr = 0;
                     break;
             }
             Emp_wage = Emp_Rate_Hr * Emp_Hr;
