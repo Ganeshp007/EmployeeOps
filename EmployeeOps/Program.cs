@@ -6,7 +6,8 @@ class Exception
     public const int Emp_Rate_Hr = 20;
     public const int Max_Working_Days = 20;
     public const int Max_Working_Hr = 100;
-   static void Main(String[] agrs)
+  
+    static void Main(String[] agrs)
    
    {
             Console.WriteLine("----- Welcome to Employee Management System -----\n");
