@@ -46,7 +46,8 @@ class Exception
 
             Total_Working_Days++;
         }
-        Console.WriteLine(Total_Working_Hr);
+        
+        Console.WriteLine("\nTotal Working HRs of current Employee:- "+Total_Working_Hr);
 
         Total_Emp_wage = Total_Working_Hr * Emp_Rate_Hr;    
         Console.WriteLine("\nWages of current Empolyee of 100 Hrs in 20 days :- " +Total_Emp_wage);
